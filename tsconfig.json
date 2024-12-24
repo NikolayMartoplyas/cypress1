@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6", //Указывает версию JavaScript для компиляции
+    "module": "commonjs", //тиип модуля. CommonJS — это стандарт для Node.js.
+    "lib": ["es6", "dom"], //используемые библиотеки. Здесь ES6 функции и API DOM.
+    "esModuleInterop": true, //Разрешает совместимость с CommonJS и ES-модулями.
+    "types": ["cypress"] //Указывает, что используются типы для Cypress.
+  },
+  "include": ["**/*.ts", "cypress/**/*.ts"]
+}
